@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <se st="2013-06-20T08:00:00" en="2013-06-20T09:00:00" r="" sn="">
+    <t>Welcome &amp; Coffee</t>
+  </se>
+  <se st="2013-06-20T09:00:00" en="2013-06-20T09:15:00" r="Room 8" sn="Gill Cleeren, Davy Knuysen, Mike Martin">
+    <t>Opening Keynote</t>
+    <sk>1098bc15-6551-46f8-9bcf-18f3c987669c</sk>
+    <sk>2a94b75d-d595-4d64-aba9-400556072f3e</sk>
+    <sk>6f0f8df0-9466-4275-8340-4492ef51e7ba</sk>
+  </se>
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 8" sn="Maarten Balliauw">
+      <t>Windows Azure Web Sites – things they don’t teach kids in school</t>
+      <o>Microsoft has a cloud platform which runs .NET, NodeJS and PHP. All 101 talks out there will show you the same: it’s easy to deploy, it scales out on demand and it runs WordPress. Great! But what about doing real things? In this session, we’ll explore the things they don’t teach kids in school. We’ll cover the different deployment options for Windows Azure Web Sites, the development flow, awesome things you can do with the command line tools, modifying the automated build process and explore some lesser known techniques of this platform. </o>
+      <sk>58db5bd5-a53e-4487-9ef3-9e715fd81db4</sk>
+  </se>
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 9" sn="Nico Vermeir">
+      <t>Building real-time applications with SignalR and Windows Phone 8</t>
+      <o>Building an application that can communicate to a server or to other applications in real-time can be a time consuming, and very difficult task. If only there was a library that would take care of all the boilerplate code and let us do the fun stuff. That’s where SignalR comes in, an open source library developed by Microsoft that allows us to focus on the fun side. Join Nico Vermeir, a passionate mobile developer, in a session that walks you through setting up a basic SignalR service and letting your Windows Phone 8 app talk to it. 
+      </o>
+      <sk>059ef612-b283-4cb9-b2cf-c46770debe88</sk>
+  </se>
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 10" sn="Koen Verbeeck, Valentino Vranken">
+      <t>Data Visualization Tips &amp; Tricks</t>
+      <o>You need to build a couple of reports showing vital data to business users and management is already breathing down your neck. How can you develop compelling reports that draw the reader’s attention without obfuscating the critical numbers? With Reporting Services, Microsoft's corporate reporting solution, you can build rich and powerful reports. This session will introduce you to some key concepts about data visualization, which you can use to build engaging and convincing reports. You will also learn a few tricks to create a more complex reporting experience, such as multi-column reports and consistent dynamic color usage. 
+      </o>
+      <sk>cd09cf0d-3877-4ea2-84ae-8d3e1032bbb8</sk> 
+      <sk>383b8210-1159-4c29-93ad-2944d96ae605</sk>
+  </se>
+  <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 9" sn="Stephane Delcroix">
+    <t>Emancipate your C# – Introduction to Xamarin 2.0</t>
+    <o>
+      Xamarin allows you to easily write mobile apps for iOS &amp; Android in your favourite language: C#. Because who wants to code in Objective-C or Java anyway? And we all know the truth about those “native” HTML5 / Javascript mobile apps, right? In this session, we’ll see how Xamarin can speed up your mobile developments by sharing a major part of your codebase while deploying fully native applications to multiple platforms. You’d never thought your C# could leave Redmond for a road trip. 
+    </o>
+    <sk>8adeba19-c40b-42da-88a1-2bdbbd5965e4</sk>
+  </se>
+  <sp k="8adeba19-c40b-42da-88a1-2bdbbd5965e4" n="Stephane Delcroix" t="co-founder" c="Mobile Inception" b="Stephane is a strong proponent of .NET everywhere. That's why he was involved that much in mono." i="http://www.gravatar.com/avatar/dae907d26dd200d065227e2a020bc999?width=100&amp;height=100&amp;crop=auto" />
+  <sp k="1098bc15-6551-46f8-9bcf-18f3c987669c" n="Gill Cleeren"/>
+  <sp k="2a94b75d-d595-4d64-aba9-400556072f3e" n="Davy Knuysen"/>
+  <sp k="6f0f8df0-9466-4275-8340-4492ef51e7ba" n="Mike Martin"/>
+  <sp k="58db5bd5-a53e-4487-9ef3-9e715fd81db4" n="Maarten Balliauw"/>
+  <sp k="059ef612-b283-4cb9-b2cf-c46770debe88" n="Nico Vermeir" />
+  <sp k="cd09cf0d-3877-4ea2-84ae-8d3e1032bbb8" n="Koen Verbeeck" />
+  <sp k="383b8210-1159-4c29-93ad-2944d96ae605" n="Valentino Vranken" />
+  
+  <ug n="DotNetHub"  u="http://www.dotnethub.be" i="http://www.communityday.be/Portals/0/dotnethub.png">
+  <o>DotNetHub is a community which aim to share knowledge, know-how and experiences in two different trakcs : - A &quot;Technology&quot; track: targeting the .NET framework and all related tools and technologies - A &quot;Methodology&quot; track: targeting the agile methodologies : eXtreme Programming, Scrum and Lean For each track, we will organize conferences, dojos (hands on lab about a technology or a methodology practice) and Open Space Discussions (free discussion about a subject, each participant being an active actor).</o>
+  </ug>
+</Conference>

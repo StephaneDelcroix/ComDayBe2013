@@ -28,12 +28,67 @@
       <sk>cd09cf0d-3877-4ea2-84ae-8d3e1032bbb8</sk> 
       <sk>383b8210-1159-4c29-93ad-2944d96ae605</sk>
   </se>
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 11" sn="Thomas Vochten">
+      <t>Making sense of SharePoint 2013</t>
+      <o>This session will cover the top 10 things you need to know about SharePoint 2013 as an IT Pro. We’ll take a leap around the most important architectural changes, some new and improved features and what they mean to your daily job. 
+      </o>
+      <sk>a8bd51e7-90a0-4d05-b3d6-9c6470662fb9</sk>
+  </se>
+  <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 9" sn="Kevin DeRudder">
+      <t>ECMAScript.next! ECMAScript.wtf?</t>
+      <o>HTML5 and CSS already added new features to the world of web which made a lot more possible. The next kid on the web block is JavaScript. ES.next is going to change the way you write your daily JavaScript. The coming years are going to be very exciting for us web developers. In this session you will learn how these new features can change your client side coding. 
+      </o>
+      <sk>fb90b2d6-d463-4bd0-b451-ab05165bd397</sk>
+  </se>
+  <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 11" sn="Kurt Roggen">
+      <t>System Center Virtual Machine Manager: Best kept secrets</t>
+      <o>So you think you know System Center Virtual Machine Manager? SCVMM has become the cornerstone for management in your virtualization infrastructure with so many new features introduced with every new release… Attend this session and discover some of the best kept secrets! </o>
+      <sk>34892f16-962e-456b-97e7-3443cf055ddb</sk>
+  </se>
+  <se st="2013-06-20T12:00:00" en="2013-06-20T13:15:00" r="" sn="">
+      <t>Lunch/Partner Expo</t>
+  </se>
+  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 8, Room 9" sn="Mario Van Hissenhoven">
+      <t>Your Data in 3D</t>
+      <o>Ever imagined what your data would look like if presented in 3D? This session will show you which common issues you encounter when only dealing with flat data and how three dimensional representations will simplify some of the business requirements and tackle those issues. In this little presentation you will see your SQL Server data coming to life in a WPF presentation powered by 3D. </o>
+      <sk>01bd9cb8-7f5f-4e81-bac2-7f3a0019493b</sk>
+  </se>
+  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 10, Room 11" sn="Peter Van De Voorde">
+      <t>The social developer</t>
+      <o>This presentation centers on people, teams and how to combine both into a creative, fun and efficient combination of excellence. It's about investing in yourself as a person. It's about not being afraid of change, of speaking up, of trying to excel, of being passionate. It's about creative teams, about how to build and coach them. It's about choices you'll have to make in your personal and professional career. It's about finding back the flow in your work and life. It's about finding back the wonder that you had as a little child. </o>
+      <sk>2a1eae30-ceca-4303-90bc-ec4b5d0fd819</sk>
+  </se>
+  <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 8" sn="Dennis Doomen">
+      <t>Object Calisthenics; Practices for Writing Object-Oriented C#</t>
+      <o>According to Wikipedia, Calisthenics are a form of exercise consisting of a variety of simple, often rhythmical, movements, generally without using equipment or apparatus. Since programming without Visual Studio is going to be a bit challenging you can define Object Calisthenics as a programming exercise that uses simple rules to motivate you to take an object-oriented approach to programming. As an experienced developer practicing Test Driven Development I was a bit sceptical of whether I really needed those rules to be a better programmer. But to my surprise those little rules really reinforced my beliefs about building high-quality software using the principles of object-orientation, SOLID and Clean Code. So what are those rules? I won’t tell you…yet. Just come to my session and I’ll let you in on my secrets…</o>
+      <sk>2db30854-1a74-4749-a3bd-3bc8cced45ed</sk>
+  </se>
   <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 9" sn="Stephane Delcroix">
     <t>Emancipate your C# – Introduction to Xamarin 2.0</t>
     <o>
       Xamarin allows you to easily write mobile apps for iOS &amp; Android in your favourite language: C#. Because who wants to code in Objective-C or Java anyway? And we all know the truth about those “native” HTML5 / Javascript mobile apps, right? In this session, we’ll see how Xamarin can speed up your mobile developments by sharing a major part of your codebase while deploying fully native applications to multiple platforms. You’d never thought your C# could leave Redmond for a road trip. 
     </o>
     <sk>8adeba19-c40b-42da-88a1-2bdbbd5965e4</sk>
+  </se>
+  <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 11" sn="Ruben Nauwelaers">
+      <t>Exchange 2013 and Lync 2013: Better Together</t>
+      <o>In this session we will show you in a practical way how you can integrate Lync 2013 and Exchange 2013. You'll learn how Lync 2013 coexistence with Exchange 2013 will give you great features like Unified Messaging, centralized Archiving and Unified Contact Store. This session will be packed with demos. </o>
+      <sk>1e49612d-2531-4e4a-b880-fd9a200a6b83</sk>
+  </se>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 8" sn="Xavier Decoster">
+      <t>NuGet (Anti-) Patterns – Tales from the trenches</t>
+      <o>Many organizations trying to onboard NuGet are expecting to experience a fast transition from dependency hell towards a structured and organized NuGet package repository. Whilst some succeed with ease, others don't know where to start and fail miserably. This session aims to raise awareness around some NuGet (anti-)patterns and practices. Whether you're working on open source projects or in an enterprise environment, or both, this session might help you saving some time and headaches regarding package creation, versioning and publication, as well as repository organization and automated builds. </o>
+      <sk>41145e2f-6512-4385-a513-c80eccb97489</sk>
+  </se>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 9" sn="Kevin Dockx">
+      <t>Windows 8 Store Apps – From Turtle to Rabbit</t>
+      <o>One of the most important aspects of a Windows Store application is its performance: an end-user will simply not keep on using your app if (s)he has to wait too long to complete the task (s)he’s using it for – after all, for most apps, there will be loads of alternatives. In this session, you’ll learn about what you can do to keep your Windows Store application as performant as possible. We’ll dive into some of the available tools for this, we’ll look into the XAML parsing engine, and we’ll learn about resource dictionary strategies to ensure fast loading of your application. But we won’t stop there: you’ll also learn how to perform tasks in parallel, how to offload tasks that don’t belong on your UI thread to another thread, how to incrementally load data instead of loading it all at once, … This is a session that’ll dive into a lot of performance aspects of a Windows Store app – a must if you’re serious about developing the next killer app for Windows 8! </o>
+      <sk>9a3ef114-96e8-47da-a335-e24f78bad311</sk>
+  </se>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 10" sn="David Smeets">
+      <t>Data-driven Subscription using SSIS and SharePoint</t>
+      <o>SQL Server Reporting Services provides data-driven subscriptions to render reports based on information in a database table. This is a very nice feature but the down side is that you are required to purchase an Enterprise license (or BI license in SQL 2012) of SQL Server in order to use this feature. Customers like this feature but don't want to pay for the Enterprise license so I searched for an alternative with standard licenses. In this session I will show the alternative where the end user can still create his own subscription in SharePoint. Step-by-step I will create an SQL Server Integration Services package that renders reports to a SharePoint library on values stored in the database. </o>
+      <sk>d928457e-8a53-40bc-8a61-d4c8249abe84</sk>
   </se>
   <sp k="8adeba19-c40b-42da-88a1-2bdbbd5965e4" n="Stephane Delcroix" t="co-founder" c="Mobile Inception" b="Stephane is a strong proponent of .NET everywhere. That's why he was involved that much in mono." i="http://www.gravatar.com/avatar/dae907d26dd200d065227e2a020bc999?width=100&amp;height=100&amp;crop=auto" />
   <sp k="1098bc15-6551-46f8-9bcf-18f3c987669c" n="Gill Cleeren"/>
@@ -43,7 +98,16 @@
   <sp k="059ef612-b283-4cb9-b2cf-c46770debe88" n="Nico Vermeir" />
   <sp k="cd09cf0d-3877-4ea2-84ae-8d3e1032bbb8" n="Koen Verbeeck" />
   <sp k="383b8210-1159-4c29-93ad-2944d96ae605" n="Valentino Vranken" />
-  
+  <sp k="a8bd51e7-90a0-4d05-b3d6-9c6470662fb9" n="Thomas Vochten" />
+  <sp k="fb90b2d6-d463-4bd0-b451-ab05165bd397" n="Kevin DeRudder" />
+  <sp k="34892f16-962e-456b-97e7-3443cf055ddb" n="Kurt Roggen" />
+  <sp k="01bd9cb8-7f5f-4e81-bac2-7f3a0019493b" n="Mario Van Hissenhoven" />
+  <sp k="2a1eae30-ceca-4303-90bc-ec4b5d0fd819" n="Peter Van De Voorde" />
+  <sp k="2db30854-1a74-4749-a3bd-3bc8cced45ed" n="Dennis Doomen" />
+  <sp k="1e49612d-2531-4e4a-b880-fd9a200a6b83" n="Ruben Nauwelaers" />
+  <sp k="41145e2f-6512-4385-a513-c80eccb97489" n="Xavier Decoster" />
+  <sp k="9a3ef114-96e8-47da-a335-e24f78bad311" n="Kevin Dockx"/>
+  <sp k="d928457e-8a53-40bc-8a61-d4c8249abe84" n="David Smeets" />
   <ug n="DotNetHub"  u="http://www.dotnethub.be" i="http://www.communityday.be/Portals/0/dotnethub.png">
   <o>DotNetHub is a community which aim to share knowledge, know-how and experiences in two different trakcs : - A &quot;Technology&quot; track: targeting the .NET framework and all related tools and technologies - A &quot;Methodology&quot; track: targeting the agile methodologies : eXtreme Programming, Scrum and Lean For each track, we will organize conferences, dojos (hands on lab about a technology or a methodology practice) and Open Space Discussions (free discussion about a subject, each participant being an active actor).</o>
   </ug>

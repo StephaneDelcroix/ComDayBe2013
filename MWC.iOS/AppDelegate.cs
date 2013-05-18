@@ -117,7 +117,7 @@ try {
 					// database as the sessions are stored. A more iCloud-friendly design would be 
 					// to keep the user-data separate from the server-generated data...
 					NSFileManager.SetSkipBackupAttribute (MWC.DL.MwcDatabase.DatabaseFilePath, true);
-				} else {
+				} 
 					// if there's already data in the database, do/attempt server update
 					//ConsoleD.WriteLine("SkipBackup: "+NSFileManager.GetSkipBackupAttribute (MWC.DL.MwcDatabase.DatabaseFilePath));
 
@@ -144,7 +144,7 @@ try {
 						}
 					} else ConsoleD.WriteLine ("Too soon to update " + DateTime.Now);
 				}
-			})).Start();
+			)).Start();
 
 			tabBar = new Screens.Common.TabBarController ();
 			

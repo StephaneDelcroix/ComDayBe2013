@@ -90,6 +90,64 @@
       <o>SQL Server Reporting Services provides data-driven subscriptions to render reports based on information in a database table. This is a very nice feature but the down side is that you are required to purchase an Enterprise license (or BI license in SQL 2012) of SQL Server in order to use this feature. Customers like this feature but don't want to pay for the Enterprise license so I searched for an alternative with standard licenses. In this session I will show the alternative where the end user can still create his own subscription in SharePoint. Step-by-step I will create an SQL Server Integration Services package that renders reports to a SharePoint library on values stored in the database. </o>
       <sk>d928457e-8a53-40bc-8a61-d4c8249abe84</sk>
   </se>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 11" sn="Christopher Keyaert">
+      <t>How to bring Windows Azure portal to your datacenter</t>
+      <o>Windows Azure Services for Windows Server is as part of the Microsoft Cloud OS initiative and allows Hosting Service Providers to easily provision multi-tenant website hosting, Cloud, and Virtual machines services on Windows Server 2012 machines in their datacenter. In this session we will see how to setup and how to use Windows Azure Services for Windows Server.</o>
+      <sk>9b753676-e010-4506-9f2d-9d5bfc4d5d50</sk>
+  </se>
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 8" sn="Kris Van Der Mast">
+      <t>Going for a SPA on a Cloudy day</t>
+      <o>This session will give you an overview of how to build a Single Page Application, SPA, based on HTML5. Besides that the backend will be set up in an easy fashion on Windows Azure.</o>
+      <sk>03f55a83-f3df-40cd-8b09-b9f5d9b06eb1</sk>
+  </se>
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 9" sn="Joris Poelmans">
+      <t>Building search-driven Windows 8 and Windows Phone 8 apps with SharePoint Server 2013</t>
+      <o>Combine the power of Windows 8 with the flexibility and interoperability of SharePoint 2013 search. This session will walk through building Windows 8 applications using SharePoint 2013's REST-based search API to build rich, compelling user experiences. We will leverage the new people and social search capabilities in SharePoint 2013 to build both a Windows 8 client and Windows Phone 8 client. </o>
+      <sk>ce91e164-d1a5-42b3-b740-881913a15e21</sk>
+  </se>
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 10" sn="Pieter Vanhove">
+      <t>How to setup SQL Server Reporting Services high availability with SQL Server 2012 Standard Edition</t>
+      <o>Your business wants a high available reporting environment. OK, fine, you just implement the scale-out deployment of SQL Server Reporting Services. Oh? Your business also wants to save money and there is no budget for an Enterprise Edition... But they still want a high available reporting environment. Sure, no problem, there is a way to implement this with SQL Server Standard Edition. No, it's not implemented with the scale-out deployment and no, it's not officially supported by Microsoft. But hey, it works and it's cheap! Do you want to see how you can implement it? Well, just join my session. </o>
+      <sk>d2011899-ee74-42de-a6e7-de77c4b0e92b</sk>
+  </se>
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 11" sn="Peter De Tender">
+      <t>Using Windows RT in the Enterprise</t>
+      <o>In this session, we will not only talk about how to use and manage Windows RT devices (like Microsoft's Surface...), but also show you by bringing live demos. Starting with a comparison between Windows 8 RT and plain Windows 8, we go over some specific functionalities and feature-set of Windows RT. 
+	  Next to that, I'll walk you through some business scenarios in which the Windows RT is an advised device to be used. Lastly, I'll take away one of the bigger concerns in Enterprises, namely how to efficiently manage the device itself.</o>
+      <sk>d83de4f5-1f4d-45d0-b094-6dd7318e1fee</sk>
+  </se>
+  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 8" sn="Panagiotis Kefalidis">
+      <t>In depth lap around on Windows Azure - Applied architectures</t>
+      <o>Exploring Windows Azure services from a more advanced side and looking into applied architectures solving different problems. Extract the essence and getting the full potential out of the platform is key to a valid and cost effective architecture. Let's explore the options and the services. </o>
+      <sk>ae7e593e-4602-4afd-a167-06f0990630d8</sk>
+  </se>
+  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 9" sn="Lieven de Cock">
+      <t>Threading in C++</t>
+      <o>Threading has been a challenging and non portable job for many years, and it is one of our basic tools for the future. Though several libraries came to aid (POCO / boost / …), now it’s finally part of the language, C++11 is bringing us threading support. In this crash course we will dive into basic uses of std::thread, std::mutex, std::condition_variable, std::atomic, … Life is easier and more portable now, but did we get all we wanted ? And as always, C++ is powerful, providing constructs mere mortals should better not touch, unless you are that 1% of the user base, but most of us are not. We will see simple code examples explaining the std::thread basics. So lock your mutex, wait for your condition variable and atomically spin up that thread, C++11 threading is here for you. Thou shall async till eternity, or until the future has delivered its promise. </o>
+      <sk>c00a72ca-546e-4c30-a99d-889105b5424e</sk>
+  </se>
+  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 10" sn="Serge Luca, Isabelle Van Campenhoudt">
+      <t>Tuning SQL Server 2012 for SharePoint 2013”: what every SharePoint consultant should know</t>
+      <o>SQL Server is really the brain of SharePoint; the default settings of SQL server are not optimized for SharePoint; in this session, Serge Luca (SharePoint MVP) and Isabelle Van Campenhoudt (SQL Server MVP) will give you an overview of what any SharePoint consultant need to know regarding configuring monitoring and setting up SQL Server 2012 for SharePoint 2013. 
+	  -Keys SQL Server and SharePoint integration concepts 
+	  -Best practice SQL Server Database settings 
+	  -Server settings for SQL server 
+	  -SQL Server and SharePoint availability (backup, always On,…) </o>
+      <sk>dc9f68a0-5f61-4af7-b3fa-12cae61a903c</sk>
+      <sk>d1883b4e-3e42-4196-ae60-dcdabaa0bb3c</sk>
+  </se>
+  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 11" sn="Mike Resseler">
+      <t>Business Continuity with System Center</t>
+      <o>Business Continuity used to be very expensive or impossible for many organizations. It included complex technologies and hardware solutions. With System Center and Hyper-V, you can now add several new layers to your defense on an easy, affordable way. Join Mike in this session to see Hyper-V replica, Data Protection Manager and Backup to the cloud as great tools for your Business Continuity plan. </o>
+      <sk>362727be-b0b9-433b-8c6e-1f25cbf7c889</sk>
+  </se>
+  <se st="2013-06-20T18:15:00" en="2013-06-20T18:30:00" r="Room 8" sn="Gill Cleeren, Davy Knuysen, Mike Martin">
+      <t>Closing with prize draw &amp; give away</t>
+    <sk>1098bc15-6551-46f8-9bcf-18f3c987669c</sk>
+    <sk>2a94b75d-d595-4d64-aba9-400556072f3e</sk>
+    <sk>6f0f8df0-9466-4275-8340-4492ef51e7ba</sk>
+  </se>
+ 
   <sp k="8adeba19-c40b-42da-88a1-2bdbbd5965e4" n="Stephane Delcroix" t="co-founder" c="Mobile Inception" b="Stephane is a strong proponent of .NET everywhere. That's why he was involved that much in mono." i="http://www.gravatar.com/avatar/dae907d26dd200d065227e2a020bc999?width=100&amp;height=100&amp;crop=auto" />
   <sp k="1098bc15-6551-46f8-9bcf-18f3c987669c" n="Gill Cleeren"/>
   <sp k="2a94b75d-d595-4d64-aba9-400556072f3e" n="Davy Knuysen"/>
@@ -108,7 +166,63 @@
   <sp k="41145e2f-6512-4385-a513-c80eccb97489" n="Xavier Decoster" />
   <sp k="9a3ef114-96e8-47da-a335-e24f78bad311" n="Kevin Dockx"/>
   <sp k="d928457e-8a53-40bc-8a61-d4c8249abe84" n="David Smeets" />
+  <sp k="9b753676-e010-4506-9f2d-9d5bfc4d5d50" n="Christopher Keyaert" />
+  <sp k="03f55a83-f3df-40cd-8b09-b9f5d9b06eb1" n="Kris Van Der Mast"/>
+  <sp k="ce91e164-d1a5-42b3-b740-881913a15e21" n="Joris Poelmans"/>
+  <sp k="d2011899-ee74-42de-a6e7-de77c4b0e92b" n="Pieter Vanhove" />
+  <sp k="d83de4f5-1f4d-45d0-b094-6dd7318e1fee" n="Peter De Tender"/>
+  <sp k="ae7e593e-4602-4afd-a167-06f0990630d8" n="Panagiotis Kefalidis"/>
+  <sp k="c00a72ca-546e-4c30-a99d-889105b5424e" n="Lieven de Cock"/>
+  <sp k="dc9f68a0-5f61-4af7-b3fa-12cae61a903c" n="Serge Luca"/>
+  <sp k="d1883b4e-3e42-4196-ae60-dcdabaa0bb3c" n="Isabelle Van Campenhoudt"/>
+  <sp k="362727be-b0b9-433b-8c6e-1f25cbf7c889" n="Mike Resseler"/>
+
+ <ug n="WinTalks" u="http://www.wintalks.be/" i="http://www.communityday.be/Portals/0/winsec.png">
+      <o>WinTalks User Group is focused on any and all Microsoft Windows and related technologies. During our sessions we will discuss new and old Microsoft Windows technologies or 3rd party products that enhance the overall Microsoft Windows capabilities.
+
+	  With WinTalks we aim to combine two types of sessions: on one side we will organize formal sessions where a technical expert presents a technology. On the other side we want to give It-Professionals an opportunity to bring their own real world problems, questions and experiences to an interactive “ask-the-experts” session.</o>
+  </ug>
+  <ug n="VISUG" u="http://www.visug.be/" i="http://www.communityday.be/Portals/0/visug.png">
+      <o>Visug is the Belgian usergroup that unites the Belgian Visual Studio developers. With over 2500 members, about 20 events a year, national and international speakers, we try to build the biggest .NET community in Belgium.</o>
+  </ug>
+  <ug n="VBIB" u="http://www.vbib.be/" i="http://www.communityday.be/Portals/0/vbibaccbdotnet.png">
+      <o>The ACCB.net/VBiB User Group has the mission to improve communication among .NET developers, to give demonstrations, to have discussions, to solve problems, and to develop together. The OFFLINE part, ACCB.net, organize 2 meetings each month in Bruges. One evening around a certain topic, and the other evening, intensive code writing and problems solving. The ONLINE component, VBiB, a forum where the members meet on the web, and help to achieve the same principal objectives. We bring all kinds of topics around .NET, and follow the best trends and newest innovations. Our User Group focuses primarily on students, hobbyists and novice programmers. But even the experienced programmer is welcome, both OFFLINE and/or ONLINE.</o>
+  </ug>
+  <ug n="TechNine" u="http://www.technine.be/" i="http://www.communityday.be/Portals/0/technine.png">
+      <o>The mission of TechNine: To be the valid point of entry for the Belgian SMB Community Share experience &amp; knowledge Scope: All SMB ICT Reference Target: Everyone who wants to share experience, ideas or knowledge about Microsoft SMB Products Online &amp; Offline presence Quarterly User Group evening </o>
+  </ug>
+  <ug n="SQLUG" u="http://www.sqlug.be/" i="http://www.communityday.be/Portals/0/sqlug.png">
+      <o>SQLUG.be, the SQL Server User Group Belgium is a public user group that brings together the Belgian MS SQL Server community. Our goal is to share experiences, enthusiasm and knowledge about Microsoft SQL Server. The methods we use to share knowledge vary from evening presentations over round-table discussions to our well-known yearly conference, the Belgian SQL Server Days. The user group was founded in 2006 and today reaches a community of over 1500 members. More than 300 SQL Server enthusiasts attend the yearly SQL Server Days. We welcome IT-Pros as well as developers, technical and non-technical people and everybody who wants to share experiences, ideas or knowledge about SQL Server.</o>
+  </ug>
+  <ug n="SCUG" u="http://www.scug.be/" i="http://www.communityday.be/Portals/0/scug.png">
+      <o>The main goal of the UG is to share experiences and knowledge with each other. We want to provide the Belgian System Center community a single point of entry through our website. Besides the website we also want to provide the necessary resources and infrastructure to deliver technical quality content, created for users by users. Furthermore we want to organize meetings, sessions and hands-on labs on a regular basis. </o>
+  </ug>
+  <ug n="Pro-Exchange" u="http://www.pro-exchange.be/" i="http://www.communityday.be/Portals/0/proexchange.png">
+      <o>Belgian Unified Communications User Group
+	  Pro-Exchange, Pro-Lync &amp; Pro-Office365 
+
+	  The primary goal of the Unified Communications user group is to be a meeting point for all passionate Unified Communications professionals in Belgium and bring all knowledge together both online and offline.  Products that make up the Microsoft Unified Communications stack are the primary targets for our community, products like Microsoft Exchange Server, Microsoft Lync Server and Office 365.</o>
+  </ug>
+  <ug n="MADN" u="http://www.madn.be/" i="http://www.communityday.be/Portals/0/wiphug.png">
+      <o>MADN is a Belgian usergroup that focusses on Windows Phone and Windows 8 Metro development. The idea is to share knowledge, skills and ideas with the entire community not only about Metro development but also about everything that has something to do with Windows or Windows Phone</o>
+  </ug>
+  <ug n="IAMCT" u="http://www.iamct.org/" i="http://www.communityday.be/Portals/0/iamct.png">
+      <o>IAMCT is the International Association of Microsoft Certified Trainers, an open community and forum platform towards all worldwide MCTs. Our goal is working closely with Microsoft Learning on optimizing the MCT program, leveraging the quality of MOC courseware material,... We offer many unique benefits to MCTs like worldwide hotel discounts, discounts on E-books, free software from well-known vendors ,... and most of all, a very active bunch of MCT friends all over the world! Even if you are not an MCT (yet), talk to your local chapter lead, as we have a solution for that as well... 
+	  For more information or registering as a member, check out http://www.iamct.org</o>
+  </ug>
   <ug n="DotNetHub"  u="http://www.dotnethub.be" i="http://www.communityday.be/Portals/0/dotnethub.png">
   <o>DotNetHub is a community which aim to share knowledge, know-how and experiences in two different trakcs : - A &quot;Technology&quot; track: targeting the .NET framework and all related tools and technologies - A &quot;Methodology&quot; track: targeting the agile methodologies : eXtreme Programming, Scrum and Lean For each track, we will organize conferences, dojos (hands on lab about a technology or a methodology practice) and Open Space Discussions (free discussion about a subject, each participant being an active actor).</o>
   </ug>
-</Conference>
+  <ug n="CLUG" u="" i="http://www.communityday.be/Portals/0/clug.png">
+      <o>The Continual Learning User Group (CLUG) is a user group supported by Ephec (Ecole Pratique des Hautes Etudes Commerciales) and Microsoft. Our goal is to share our experiences of the Microsoft ecosystem (Azure,.Net, SharePoint, Office 365 SQL Server, BI...) among others but also of other software technologies and methodologies (SCRUM, Aspect Oriented technologies,...) Once a month an expert is invited to give a session. Most sessions are given in french. The CLUG is based in Brussels.</o>
+  </ug>
+  <ug n="BIWUG" u="http://www.biwug.be/" i="http://www.communityday.be/Portals/0/biwug.png">
+      <o>The primary goal of the Belux Information Worker User Group (abbreviated as BIWUG) is to be a central meeting point for the Information Worker community in Belgium and Luxemburg. BIWUG members are people, technical and non-technical, who are interested in Microsoft Information Worker products and technologies. We cover the whole range of products and technologies that influence in some way or another the daily activities of the information worker. </o>
+  </ug>
+  <ug n="Belgian C++ user group" u="http://www.becpp.org/" i="http://www.communityday.be/Portals/0/becpp.png">
+      <o>The Belgian C++ Users Group (BeCpp UG) is a group of professional developers and hobbyists from Belgium focused on the C++ language. The aim is to have quarterly meetings to discuss trends, techniques, and technology regarding the C++ language. These meetings are free, and anyone and everyone is welcome to attend.</o>
+  </ug>
+  <ug n="AZUG" u="http://www.azug.be/" i="http://www.communityday.be/Portals/0/azug.png">
+      <o>AZUG.BE is a Belgian user group with focus on development and architecture of the Windows Azure Platform. Our goal is to share knowledge and experiences with the .NET community on Windows Azure, Windows Azure AppFabric and SQL Azure.</o>
+  </ug>
+ </Conference>

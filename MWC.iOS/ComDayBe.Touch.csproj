@@ -170,12 +170,13 @@
     <Compile Include="UI\Controls\IntelligentSplitViewController.cs" />
     <Compile Include="UI\Controls\UnderlineLabel.cs" />
     <Compile Include="ConsoleD.cs" />
-    <Compile Include="Screens\Common\About\AboutMobileInceptionScreen.cs" />
     <Compile Include="Screens\iPad\UserGroups\UserGroupsSplitView.cs" />
     <Compile Include="Screens\iPhone\UserGroups\UserGroupDetailsScreen.cs" />
     <Compile Include="Screens\iPhone\UserGroups\UserGroupsScreen.cs" />
     <Compile Include="UI\CustomElements\UserGroupElement.cs" />
     <Compile Include="UI\CustomElements\UserGroupCell.cs" />
+    <Compile Include="Screens\Common\About\AboutXamScreen.cs" />
+    <Compile Include="Screens\Common\About\AboutMi8Screen.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -324,5 +325,7 @@
     <BundleResource Include="Resources\Icon%402x.png" />
     <BundleResource Include="Resources\Icon-72.png" />
     <BundleResource Include="Resources\Icon.png" />
+    <BundleResource Include="Images\Tabs\mi8.png" />
+    <BundleResource Include="Images\Tabs\mi8%402x.png" />
   </ItemGroup>
 </Project>

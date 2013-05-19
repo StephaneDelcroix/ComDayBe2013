@@ -8,6 +8,7 @@ namespace MWC.iOS.Screens.Common {
 		DialogViewController speakersScreen, sessionsScreen, twitterFeedScreen, userGroupsScreen, /*newsFeedScreen, exhibitorsScreen,*/ favoritesScreen;
 		Screens.Common.Map.MapScreen mapScreen;
 		Screens.Common.About.AboutXamarinScreen aboutScreen;
+		UIViewController mi8Screen;
 		UISplitViewController speakersSplitView, sessionsSplitView, userGroupsSplitView ,/*exhibitorsSplitView,*/ twitterSplitView/*, newsSplitView*/;
 		
 		public TabBarController ()
@@ -108,6 +109,10 @@ namespace MWC.iOS.Screens.Common {
 				favoritesScreen.TabBarItem =  new UITabBarItem("Favorites"
 											, UIImage.FromBundle("Images/Tabs/favorites.png"), 6);
 			}
+			mi8Screen = new Screens.Common.About.AboutMi8Screen ();
+			mi8Screen.TabBarItem = new UITabBarItem ("About Mobile Inception"
+			                                       , UIImage.FromBundle ("Images/Tabs/mi8.png"), 7);
+
 			// about tab
 			aboutScreen = new Screens.Common.About.AboutXamarinScreen();
 			aboutScreen.TabBarItem = new UITabBarItem("About Xamarin"
@@ -126,6 +131,7 @@ namespace MWC.iOS.Screens.Common {
 					twitterFeedScreen,
 					//newsFeedScreen,
 					favoritesScreen,
+					mi8Screen,
 					aboutScreen
 				};
 			} else {	// IsPad
@@ -139,6 +145,7 @@ namespace MWC.iOS.Screens.Common {
 					twitterSplitView,
 					//newsSplitView,	
 					// NOTE: removed Favorites
+					mi8Screen,
 					aboutScreen
 				};
 			}

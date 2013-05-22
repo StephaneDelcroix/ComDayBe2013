@@ -13,6 +13,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <AssemblyName>MWC.Core.MD</AssemblyName>
     <TargetFrameworkVersion>v2.2</TargetFrameworkVersion>
+    <ReleaseVersion>1.4</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -62,7 +63,6 @@
     <Compile Include="BL\Managers\SessionManager.cs" />
     <Compile Include="BL\Managers\UpdateManager.cs" />
     <Compile Include="BL\Managers\SpeakerManager.cs" />
-    <Compile Include="BL\Managers\ExhibitorManager.cs" />
     <Compile Include="BL\Managers\TwitterFeedManager.cs" />
     <Compile Include="SAL\MwcSiteParser.cs" />
     <Compile Include="BL\Managers\NewsManager.cs" />
@@ -80,5 +80,7 @@
     <Compile Include="BL\Managers\DaysManager.cs" />
     <Compile Include="BL\Managers\UpdateFinishedEventArgs.cs" />
     <Compile Include="BL\SessionSpeaker.cs" />
+    <Compile Include="BL\Managers\UserGroupManager.cs" />
+    <Compile Include="BL\UserGroup.cs" />
   </ItemGroup>
 </Project>

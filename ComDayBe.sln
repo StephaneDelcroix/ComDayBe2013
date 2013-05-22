@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Touch", "Touch", "{6328CEF6-9111-4852-B8B8-6A772F46670C}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComDaybe.Core.Touch", "MWC.Core\ComDaybe.Core.Touch.csproj", "{CAA47381-0DBB-461D-8EB6-4D00AC453656}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComDayBe.Touch", "MWC.iOS\ComDayBe.Touch.csproj", "{D102E44A-1BE6-4B20-906F-F4DD5B1D3AED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Droid", "Droid", "{A88F3A1F-ED10-4DA2-B3BA-811CD004C8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComDayBe.Core.Droid", "MWC.Core\ComDayBe.Core.Droid.csproj", "{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComDayBe.Droid", "MWC.Droid\ComDayBe.Droid.csproj", "{282CECE1-2071-4DE4-B8FA-94A75031ED09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,30 @@ Global
 		AdHoc|iPhone = AdHoc|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.AdHoc|iPhone.ActiveCfg = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.AdHoc|iPhone.Build.0 = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Distribution|iPhone.ActiveCfg = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Distribution|iPhone.Build.0 = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Release|iPhone.Build.0 = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.AdHoc|iPhone.ActiveCfg = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.AdHoc|iPhone.Build.0 = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Distribution|iPhone.ActiveCfg = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Distribution|iPhone.Build.0 = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Release|iPhone.Build.0 = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{CAA47381-0DBB-461D-8EB6-4D00AC453656}.AdHoc|iPhone.ActiveCfg = AdHoc|iPhone
 		{CAA47381-0DBB-461D-8EB6-4D00AC453656}.AdHoc|iPhone.Build.0 = AdHoc|iPhone
 		{CAA47381-0DBB-461D-8EB6-4D00AC453656}.Debug|iPhone.ActiveCfg = Debug|iPhone
@@ -41,8 +73,14 @@ Global
 		{D102E44A-1BE6-4B20-906F-F4DD5B1D3AED}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CAA47381-0DBB-461D-8EB6-4D00AC453656} = {6328CEF6-9111-4852-B8B8-6A772F46670C}
+		{D102E44A-1BE6-4B20-906F-F4DD5B1D3AED} = {6328CEF6-9111-4852-B8B8-6A772F46670C}
+		{508E0D21-01E5-4A8C-A09F-AC121EDADEB8} = {A88F3A1F-ED10-4DA2-B3BA-811CD004C8F0}
+		{282CECE1-2071-4DE4-B8FA-94A75031ED09} = {A88F3A1F-ED10-4DA2-B3BA-811CD004C8F0}
+	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MWC.iOS\ComDayBe.Touch.csproj
+		StartupItem = MWC.Droid\ComDayBe.Droid.csproj
 		description = iOS5.1 and iCloud compatibility
 		version = 1.4
 	EndGlobalSection

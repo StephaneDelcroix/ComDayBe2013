@@ -19,4 +19,18 @@ namespace MWC.Android.Screens
             web.LoadUrl("file:///android_asset/About/index.html");
         }
     }
+	[Activity(Label = "About Mobile Inception", ScreenOrientation = ScreenOrientation.Portrait)]
+	public class AboutMi8Screen : BaseScreen
+	{
+		protected override void OnCreate(Bundle bundle)
+		{
+			base.OnCreate(bundle);
+
+			// set our layout to be the home screen
+			this.SetContentView(Resource.Layout.AboutXamScreen);
+
+			var web = FindViewById<WebView>(Resource.Id.AboutWebView);
+			web.LoadUrl("http://www.mobile-inception.com");
+		}
+	}
 }

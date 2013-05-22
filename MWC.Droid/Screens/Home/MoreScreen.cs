@@ -17,9 +17,10 @@ namespace MWC.Android.Screens
             this.SetContentView(Resource.Layout.MoreScreen);
 
             var aboutButton = this.FindViewById<Button>(Resource.Id.AboutButton);
-            var exhibitorsButton = this.FindViewById<Button>(Resource.Id.ExhibitorsButton);
+			var mi8Button = this.FindViewById<Button> (Resource.Id.AboutMi8Button);
+            //var usergroupsButton = this.FindViewById<Button>(Resource.Id.ExhibitorsButton);
             var favoritesButton = this.FindViewById<Button>(Resource.Id.FavoritesButton);
-            var newsButton = this.FindViewById<Button>(Resource.Id.NewsButton);
+            //var newsButton = this.FindViewById<Button>(Resource.Id.NewsButton);
             var twitterButton = this.FindViewById<Button>(Resource.Id.TwitterButton);
 
             aboutButton.Click += delegate
@@ -27,21 +28,25 @@ namespace MWC.Android.Screens
                 var intent = new Intent(this, typeof(AboutXamScreen));
                 StartActivity(intent);
             };
-            exhibitorsButton.Click += delegate
-            {
-                var intent = new Intent(this, typeof(ExhibitorsScreen));
-                StartActivity(intent);
-            };
+			mi8Button.Click += delegate {
+				var intent = new Intent (this, typeof(AboutMi8Screen));
+				StartActivity (intent);
+			};
+            //usergroupsButton.Click += delegate
+            //{
+            //    var intent = new Intent(this, typeof(UserGroupsScreen));
+            //    StartActivity(intent);
+            // };
             favoritesButton.Click += delegate
             {
                 var intent = new Intent(this, typeof(FavoritesScreen));
                 StartActivity(intent);
             };
-            newsButton.Click += delegate
-            {
-                var intent = new Intent(this, typeof(NewsScreen));
-                StartActivity(intent);
-            };
+            //newsButton.Click += delegate
+            //{
+            //    var intent = new Intent(this, typeof(NewsScreen));
+            //    StartActivity(intent);
+            //};
             twitterButton.Click += delegate
             {
                 var intent = new Intent(this, typeof(TwitterScreen));

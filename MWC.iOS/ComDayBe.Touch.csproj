@@ -229,12 +229,6 @@
   <ItemGroup>
     <Content Include="Images\MWCLogo.png" />
     <Content Include="Images\XamLogo.png" />
-    <Content Include="Images\Icons\29_icon.png" />
-    <Content Include="Images\Icons\50_icon.png" />
-    <Content Include="Images\Icons\57_icon.png" />
-    <Content Include="Images\Icons\58_icon.png" />
-    <Content Include="Images\Icons\72_icon.png" />
-    <Content Include="Images\Icons\114_icon.png" />
     <Content Include="Images\caltemplate.png" />
     <Content Include="Images\Tabs\maps.png" />
     <Content Include="Images\Tabs\schedule.png" />

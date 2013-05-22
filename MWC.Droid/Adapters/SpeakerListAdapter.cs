@@ -78,24 +78,26 @@ namespace MWC.Adapters {
             bigTextView.SetText(speakers[position].Name, TextView.BufferType.Normal);
             smallTextView.SetText(speakers[position].Title+", "+this.speakers[position].Company, TextView.BufferType.Normal);
 
+			if (!string.IsNullOrEmpty (speakers[position].ImageUrl)) {
+				var uri = new Uri (speakers[position].ImageUrl);
+				imageview.Tag = uri.ToString ();
+				var iw = new AL.ImageWrapper (imageview, context);
             
-            var uri = new Uri(speakers[position].ImageUrl);
-            imageview.Tag = uri.ToString();
-            var iw = new AL.ImageWrapper(imageview, context);
-            
-            try {
-                MonoTouch.Dialog.Utilities.ImageLoader.LogDebug("gv + " + position + " " + MonoTouch.Dialog.Utilities.ImageLoader.ImageName(uri.AbsoluteUri));
-                Log.Debug("MWC1", "gv + " + position + " " + MonoTouch.Dialog.Utilities.ImageLoader.ImageName(uri.AbsoluteUri));
-                var drawable = MonoTouch.Dialog.Utilities.ImageLoader.DefaultRequestImage(uri, iw);
-                if (drawable == null)
-                    imageview.SetImageResource(Resource.Drawable.Icon);
-                else
-                    imageview.SetImageDrawable(drawable);
-            } catch (Exception ex) {
-                MonoTouch.Dialog.Utilities.ImageLoader.Purge(); // have seen outofmemory here
-                MWCApp.LogDebug("SPEAKERS " + ex.ToString());
-            }
-
+				try {
+					MonoTouch.Dialog.Utilities.ImageLoader.LogDebug ("gv + " + position + " " + MonoTouch.Dialog.Utilities.ImageLoader.ImageName(uri.AbsoluteUri));
+					Log.Debug ("MWC1", "gv + " + position + " " + MonoTouch.Dialog.Utilities.ImageLoader.ImageName (uri.AbsoluteUri));
+					var drawable = MonoTouch.Dialog.Utilities.ImageLoader.DefaultRequestImage (uri, iw);
+					if (drawable == null)
+						imageview.SetImageResource (Resource.Drawable.Icon);
+					else
+						imageview.SetImageDrawable (drawable);
+				} catch (Exception ex) {
+					MonoTouch.Dialog.Utilities.ImageLoader.Purge (); // have seen outofmemory here
+					MWCApp.LogDebug ("SPEAKERS " + ex.ToString());
+				}
+			} else {
+				imageview.SetImageResource (Resource.Drawable.Icon);			
+			}
             //Finally return the view
             return view;
         }

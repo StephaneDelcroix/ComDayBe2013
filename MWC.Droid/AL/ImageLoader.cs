@@ -282,6 +282,9 @@ namespace MonoTouch.Dialog.Utilities
         {
             var start = uri.LastIndexOf("/") + 1;
             var end = uri.LastIndexOf(".");
+			if (end < start) 
+				end = Math.Min (uri.Length, uri.LastIndexOf("?"));
+			
             return uri.Substring(start, end-start);
         }
         static bool Download(Uri uri, string target)

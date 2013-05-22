@@ -110,9 +110,9 @@ namespace MWC {
                     } else {	// having succeeded, we won't try again for another day
                         earliestUpdate = DateTime.Now.AddDays(1);
                     }
-                    if (args.UpdateType == UpdateType.Conference) {	// now get the exhibitors, but don't really care if it fails
+                    if (args.UpdateType == UpdateType.Conference) {	// now get the usergroups, but don't really care if it fails
                         LogDebug("MAIN HandleFinishedUpdate UpdateExhibitors");
-                        BL.Managers.UpdateManager.UpdateExhibitors();
+                        BL.Managers.UpdateManager.UpdateUserGroups();
                     }
                 }
 

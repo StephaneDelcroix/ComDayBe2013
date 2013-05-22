@@ -37,19 +37,21 @@ namespace MWC.Android.Screens {
                         var tv = FindViewById<TextView>(Resource.Id.Bio);
                         tv.Text = "no speaker bio available";
                     }
-
-                    var uri = new Uri(speaker.ImageUrl);
-                    MWCApp.LogDebug("speaker.ImageUrl " + speaker.ImageUrl);
-                    try {
-                        var drawable = MonoTouch.Dialog.Utilities.ImageLoader.DefaultRequestImage(uri, this);
-                        if (drawable != null) // use it
-                            imageview.SetImageDrawable(drawable);
-                        else // we're just going to grab it ourselves and not wait for the callback from ImageLoader
-                            LoadImageDirectly(uri);
+					if (!string.IsNullOrEmpty (speaker.ImageUrl)) {
+						var uri = new Uri (speaker.ImageUrl);
+						MWCApp.LogDebug ("speaker.ImageUrl " + speaker.ImageUrl);
+						try {
+							var drawable = MonoTouch.Dialog.Utilities.ImageLoader.DefaultRequestImage (uri, this);
+							if (drawable != null) // use it
+								imageview.SetImageDrawable (drawable);
+							else // we're just going to grab it ourselves and not wait for the callback from ImageLoader
+								LoadImageDirectly (uri);
                         
-                    } catch (Exception ex) {
-                        MWCApp.LogDebug(ex.ToString());
-                    }
+						} catch (Exception ex) {
+							MWCApp.LogDebug (ex.ToString());
+						}
+					} else
+						imageview.SetImageResource (Resource.Drawable.Icon);
 
                 } else {   // shouldn't happen...
                     FindViewById<TextView>(Resource.Id.TitleTextView).Text = "Speaker not found: " + id;

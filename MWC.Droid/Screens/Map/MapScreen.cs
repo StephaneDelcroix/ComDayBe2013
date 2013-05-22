@@ -126,7 +126,7 @@ namespace MWC.Android.Screens {
             item = menu.Add(Menu.None, 7, 7, new Java.Lang.String("Twitter"));
             //item.SetIcon(Resource.Drawable.star);
 
-            item = menu.Add(Menu.None, 8, 8, new Java.Lang.String("Exhibitors"));
+            item = menu.Add(Menu.None, 8, 8, new Java.Lang.String("UserGroups"));
             //item.SetIcon(Resource.Drawable.star);
 
             item = menu.Add(Menu.None, 9, 9, new Java.Lang.String("About Xamarin"));
@@ -166,11 +166,11 @@ namespace MWC.Android.Screens {
             StartActivity(intent);
             return true;
 
-            case "News":
-
-            intent.SetClass(this, typeof(NewsScreen));
-            StartActivity(intent);
-            return true;
+            //case "News":
+			//
+            //intent.SetClass(this, typeof(NewsScreen));
+            //StartActivity(intent);
+            //return true;
 
             case "Twitter":
 
@@ -178,9 +178,9 @@ namespace MWC.Android.Screens {
             StartActivity(intent);
             return true;
 
-            case "Exhibitors":
+            case "UserGroups":
 
-            intent.SetClass(this, typeof(ExhibitorsScreen));
+            intent.SetClass(this, typeof(UserGroupsScreen));
             StartActivity(intent);
             return true;
 

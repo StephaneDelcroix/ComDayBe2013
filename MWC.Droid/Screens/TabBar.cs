@@ -54,13 +54,22 @@ namespace MWC.Android.Screens {
             TabHost.AddTab(spec);
 
             // ------------
-            intent = new Intent(this, typeof(MapScreen));
-            intent.AddFlags(ActivityFlags.NewTask);
+            //intent = new Intent(this, typeof(MapScreen));
+            //intent.AddFlags(ActivityFlags.NewTask);
+			//
+            //spec = TabHost.NewTabSpec("map");
+            //spec.SetIndicator("Map", Resources.GetDrawable(Resource.Drawable.tab_maps));
+            //spec.SetContent(intent);
+            //TabHost.AddTab(spec);
 
-            spec = TabHost.NewTabSpec("map");
-            spec.SetIndicator("Map", Resources.GetDrawable(Resource.Drawable.tab_maps));
-            spec.SetContent(intent);
-            TabHost.AddTab(spec);
+			// ------------
+			intent = new Intent (this, typeof(UserGroupsScreen));
+			intent.AddFlags (ActivityFlags.NewTask);
+
+			spec = TabHost.NewTabSpec ("usergroups");
+			spec.SetIndicator ("UserGroups", Resources.GetDrawable (Resource.Drawable.tab_exhibitors));
+			spec.SetContent (intent);
+			TabHost.AddTab (spec);
 
             // ------------
             intent = new Intent(this, typeof(MoreScreen));

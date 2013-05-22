@@ -16,11 +16,11 @@
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidSupportedAbis>armeabi</AndroidSupportedAbis>
-    <AndroidStoreUncompressedFileExtensions />
     <MandroidI18n />
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <DeployExternal>False</DeployExternal>
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <ReleaseVersion>1.4</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -30,6 +30,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AndroidStoreUncompressedFileExtensions />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -39,6 +40,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Mono.Android" />
@@ -52,7 +54,6 @@
   <ItemGroup>
     <Compile Include="Adapters\SessionTimeslotListAdapter.cs" />
     <Compile Include="Adapters\TwitterListAdapter.cs" />
-    <Compile Include="Adapters\ExhibitorListAdapter.cs" />
     <Compile Include="Adapters\FavoritesListAdapter.cs" />
     <Compile Include="Adapters\NewsListAdapter.cs" />
     <Compile Include="Adapters\DaysListAdapter.cs" />
@@ -64,14 +65,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screens\About\AboutXamScreen.cs" />
     <Compile Include="Screens\BaseScreen.cs" />
-    <Compile Include="Screens\Exhibitors\ExhibitorsScreen.cs" />
-    <Compile Include="Screens\Exhibitors\ExhibitorDetailsScreen.cs" />
     <Compile Include="Screens\Home\MoreScreen.cs" />
     <Compile Include="Screens\Home\SplashScreen.cs" />
     <Compile Include="Screens\Map\MapPinOverlay.cs" />
     <Compile Include="Screens\Map\MapScreen.cs" />
-    <Compile Include="Screens\News\NewsDetailsScreen.cs" />
-    <Compile Include="Screens\News\NewsScreen.cs" />
     <Compile Include="Screens\Speakers\SpeakerDetailsScreen.cs" />
     <Compile Include="Screens\Favorites\FavoritesScreen.cs" />
     <Compile Include="Screens\Sessions\SessionsScreen.cs" />
@@ -83,6 +80,9 @@
     <Compile Include="Screens\Twitter\TwitterScreen.cs" />
     <Compile Include="Screens\UpdateManagerLoadingScreen.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Adapters\UserGroupListAdapter.cs" />
+    <Compile Include="Screens\Exhibitors\UserGroupsScreen.cs" />
+    <Compile Include="Screens\Exhibitors\UserGroupDetailsScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -133,6 +133,8 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\MapScreenV1NotSupported.axml" />
+    <AndroidResource Include="Resources\Drawable-hdpi\tab_mi8.png" />
+    <AndroidResource Include="Resources\Drawable\tab_mi8.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\HomeScreen.axml" />
@@ -144,7 +146,6 @@
     <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\SeedData.xml" />
     <AndroidAsset Include="Assets\About\api.png" />
     <AndroidAsset Include="Assets\About\framework.png" />
     <AndroidAsset Include="Assets\About\hardware-320.png" />
@@ -238,12 +239,9 @@
     <AndroidResource Include="Resources\Drawable\pin_map.png" />
     <AndroidResource Include="Resources\Drawable\star_gold45.png" />
     <AndroidResource Include="Resources\Drawable\star_grey45.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MWC.Core\MWC.Core.MD.csproj">
-      <Project>{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}</Project>
-      <Name>MWC.Core.MD</Name>
-    </ProjectReference>
+    <AndroidAsset Include="..\MWC.iOS\Images\SeedData.xml">
+      <Link>Assets\SeedData.xml</Link>
+    </AndroidAsset>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
@@ -254,4 +252,10 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <ProjectReference Include="..\MWC.Core\ComDayBe.Core.Droid.csproj">
+      <Project>{508E0D21-01E5-4A8C-A09F-AC121EDADEB8}</Project>
+      <Name>ComDayBe.Core.Droid</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

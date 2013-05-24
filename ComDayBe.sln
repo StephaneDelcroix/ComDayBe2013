@@ -80,7 +80,7 @@ Global
 		{282CECE1-2071-4DE4-B8FA-94A75031ED09} = {A88F3A1F-ED10-4DA2-B3BA-811CD004C8F0}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = MWC.Droid\ComDayBe.Droid.csproj
+		StartupItem = MWC.iOS\ComDayBe.Touch.csproj
 		description = iOS5.1 and iCloud compatibility
 		version = 1.4
 	EndGlobalSection

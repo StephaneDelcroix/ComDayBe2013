@@ -308,6 +308,7 @@
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="Images\Icons\512_icon.png" />
+    <ITunesArtwork Include="iTunesArtwork%402x" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Default.png" />

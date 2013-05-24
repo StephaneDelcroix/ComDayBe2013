@@ -26,6 +26,7 @@
     <MtouchI18n />
     <CrashReportingApiKey />
     <MtouchArch>ARMv7</MtouchArch>
+    <MtouchSdkVersion>5.0</MtouchSdkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -34,8 +35,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
-    <MtouchLink>None</MtouchLink>
     <MtouchI18n />
+    <MtouchSdkVersion>5.0</MtouchSdkVersion>
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
     <DebugSymbols>True</DebugSymbols>
@@ -60,7 +62,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>False</ConsolePause>
-    <CodesignKey>iPhone Developer: Craig Dunn (6Q937X2U43)</CodesignKey>
+    <CodesignKey>iPhone Distribution</CodesignKey>
     <IpaPackageName />
     <MtouchI18n />
     <MtouchUseLlvm>True</MtouchUseLlvm>
@@ -72,11 +74,10 @@
     <OutputPath>bin\iPhone\Distribution\</OutputPath>
     <WarningLevel>4</WarningLevel>
     <CodesignKey>iPhone Distribution</CodesignKey>
-    <CodesignProvision>8A412ADD-C629-4A7E-8BB7-3E1059951F83</CodesignProvision>
     <IpaPackageName />
     <MtouchI18n />
     <MtouchUseLlvm>True</MtouchUseLlvm>
-    <MtouchArch>ARMv6_ARMv7</MtouchArch>
+    <MtouchArch>ARMv7</MtouchArch>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Distribution|iPhoneSimulator' ">
     <DebugType>none</DebugType>

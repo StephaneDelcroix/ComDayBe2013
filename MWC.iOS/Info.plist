@@ -9,11 +9,10 @@
 		<string>Icon-72</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>5.0</string>
+	<string>6.1</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
-		<integer>2</integer>
 	</array>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleOpaqueBlack</string>
@@ -21,18 +20,11 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
-	<key>UISupportedInterfaceOrientations~ipad</key>
-	<array>
-		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationPortraitUpsideDown</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
-	</array>
 	<key>CFBundleDisplayName</key>
 	<string>ComDay 2013</string>
 	<key>CFBundleIdentifier</key>
-	<string>be.mi8.comdaybe2013</string>
+	<string>be.mi8.comdaybe.2013</string>
 	<key>CFBundleVersion</key>
-	<string>1.6</string>
+	<string>1.0.0</string>
 </dict>
 </plist>

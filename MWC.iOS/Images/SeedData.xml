@@ -21,18 +21,29 @@
       </o>
       <sk>059ef612-b283-4cb9-b2cf-c46770debe88</sk>
   </se>
-  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 10" sn="Koen Verbeeck, Valentino Vranken">
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 4" sn="Paul Loonen">
+      <t>Credential Management using your Microsoft infrastructure</t>
+      <o>Various possibilities exist today to authenticate to all of your infrastructures and applications. In this session, Paul will show how you can manage your credentials using a Microsoft infrastructure. This goes from implementing Self-Service Password Management, both for Intranet and Extranet Users, to dealing with credentials on the various platforms used in your enterprise such as Lotus Notes, SAP and other LOB applications, to managing credentials in the cloud, but that could also come in the shape of certificates used for authentication. For a practical implementation, we will place a Microsoft Forefront Identity Manager 2010 R2 infrastructure at the centre of this credential management that will take care of all mentioned scenarios. </o>
+      <sk>6b4bc423-da40-4433-83c3-ee277301fdc1</sk>
+  </se>
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 10" sn="Thomas Vochten">
+      <t>Making sense of SharePoint 2013</t>
+      <o>This session will cover the top 10 things you need to know about SharePoint 2013 as an IT Pro. We’ll take a leap around the most important architectural changes, some new and improved features and what they mean to your daily job. 
+      </o>
+      <sk>a8bd51e7-90a0-4d05-b3d6-9c6470662fb9</sk>
+  </se>
+  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 11" sn="Koen Verbeeck, Valentino Vranken">
       <t>Data Visualization Tips &amp; Tricks</t>
       <o>You need to build a couple of reports showing vital data to business users and management is already breathing down your neck. How can you develop compelling reports that draw the reader’s attention without obfuscating the critical numbers? With Reporting Services, Microsoft's corporate reporting solution, you can build rich and powerful reports. This session will introduce you to some key concepts about data visualization, which you can use to build engaging and convincing reports. You will also learn a few tricks to create a more complex reporting experience, such as multi-column reports and consistent dynamic color usage. 
       </o>
       <sk>cd09cf0d-3877-4ea2-84ae-8d3e1032bbb8</sk> 
       <sk>383b8210-1159-4c29-93ad-2944d96ae605</sk>
   </se>
-  <se st="2013-06-20T09:30:00" en="2013-06-20T10:30:00" r="Room 11" sn="Thomas Vochten">
-      <t>Making sense of SharePoint 2013</t>
-      <o>This session will cover the top 10 things you need to know about SharePoint 2013 as an IT Pro. We’ll take a leap around the most important architectural changes, some new and improved features and what they mean to your daily job. 
-      </o>
-      <sk>a8bd51e7-90a0-4d05-b3d6-9c6470662fb9</sk>
+
+  <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 8" sn="Jan Van Der Haegen">
+      <t>LightSwitch v3: creating Single Page Apps for mobile devices</t>
+      <o>Some things sound too good to be true, so you simply can’t believe it without seeing it yourself. If someone told you that in a matter of minutes, you can learn to create clean and modern HTML5 applications with a responsive design, that run on any mobile device, without the need to study HTML, CSS or JavaScript (&amp;frameworks), and all of this at a faster pace than you’ve ever created applications before, would you believe him without seeing it yourself? No, you wouldn’t. So come see it yourself. </o>
+      <sk>b3779276-330f-4635-8504-e427ee9c39d9</sk>
   </se>
   <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 9" sn="Kevin DeRudder">
       <t>ECMAScript.next! ECMAScript.wtf?</t>
@@ -40,24 +51,39 @@
       </o>
       <sk>fb90b2d6-d463-4bd0-b451-ab05165bd397</sk>
   </se>
-  <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 11" sn="Kurt Roggen">
-      <t>System Center Virtual Machine Manager: Best kept secrets</t>
-      <o>So you think you know System Center Virtual Machine Manager? SCVMM has become the cornerstone for management in your virtualization infrastructure with so many new features introduced with every new release… Attend this session and discover some of the best kept secrets! </o>
-      <sk>34892f16-962e-456b-97e7-3443cf055ddb</sk>
+  <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 4" sn="Michelangelo van Dam">
+      <t>PHP Azure, a bright new day!</t>
+      <o>Windows Azure is one of the best cloud solutions out there and offers many services and tools for professionals to scale and extend their public and private applications. But as a professional web developer you need sometimes a quick solution to run your newest idea on. Most cloud solution providers ask you to download their stuff, upload your stuff and fight with numerous configurations while most of the things you do with Windows Azure you can do with a simple git repository, hosted on Github or BitBucket. This talk shows how fast you can develop a new idea with PHP and have it up-and-running in no time for your customers to see your latest idea and brainstorm about additional features. Generation Now, yes I am. </o>
+      <sk>89ecd489-87a3-4796-a5d1-b88d2f1bc49c</sk>
   </se>
+  <se st="2013-06-20T11:00:00" en="2013-06-20T12:00:00" r="Room 11" sn="David Smeets">
+      <t>Data-driven Subscription using SSIS and SharePoint</t>
+      <o>SQL Server Reporting Services provides data-driven subscriptions to render reports based on information in a database table. This is a very nice feature but the down side is that you are required to purchase an Enterprise license (or BI license in SQL 2012) of SQL Server in order to use this feature. Customers like this feature but don't want to pay for the Enterprise license so I searched for an alternative with standard licenses. In this session I will show the alternative where the end user can still create his own subscription in SharePoint. Step-by-step I will create an SQL Server Integration Services package that renders reports to a SharePoint library on values stored in the database. </o>
+      <sk>d928457e-8a53-40bc-8a61-d4c8249abe84</sk>
+  </se>
+ 
   <se st="2013-06-20T12:00:00" en="2013-06-20T13:15:00" r="" sn="">
       <t>Lunch/Partner Expo</t>
   </se>
-  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 8, Room 9" sn="Mario Van Hissenhoven">
+
+  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 8" sn="Mario Van Hissenhoven">
       <t>Your Data in 3D</t>
       <o>Ever imagined what your data would look like if presented in 3D? This session will show you which common issues you encounter when only dealing with flat data and how three dimensional representations will simplify some of the business requirements and tackle those issues. In this little presentation you will see your SQL Server data coming to life in a WPF presentation powered by 3D. </o>
       <sk>01bd9cb8-7f5f-4e81-bac2-7f3a0019493b</sk>
   </se>
-  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 10, Room 11" sn="Peter Van De Voorde">
+  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 9" sn="Peter Van De Voorde">
       <t>The social developer</t>
       <o>This presentation centers on people, teams and how to combine both into a creative, fun and efficient combination of excellence. It's about investing in yourself as a person. It's about not being afraid of change, of speaking up, of trying to excel, of being passionate. It's about creative teams, about how to build and coach them. It's about choices you'll have to make in your personal and professional career. It's about finding back the flow in your work and life. It's about finding back the wonder that you had as a little child. </o>
       <sk>2a1eae30-ceca-4303-90bc-ec4b5d0fd819</sk>
   </se>
+  <se st="2013-06-20T12:45:00" en="2013-06-20T13:15:00" r="Room 11" sn="Maarten Balliauw, Kevin Dockx, Xavier Decoster, Dennis Doomen">
+      <t>Panel discussion</t>
+      <sk>58db5bd5-a53e-4487-9ef3-9e715fd81db4</sk>
+      <sk>9a3ef114-96e8-47da-a335-e24f78bad311</sk>
+      <sk>41145e2f-6512-4385-a513-c80eccb97489</sk>
+      <sk>2db30854-1a74-4749-a3bd-3bc8cced45ed</sk>
+  </se>
+  
   <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 8" sn="Dennis Doomen">
       <t>Object Calisthenics; Practices for Writing Object-Oriented C#</t>
       <o>According to Wikipedia, Calisthenics are a form of exercise consisting of a variety of simple, often rhythmical, movements, generally without using equipment or apparatus. Since programming without Visual Studio is going to be a bit challenging you can define Object Calisthenics as a programming exercise that uses simple rules to motivate you to take an object-oriented approach to programming. As an experienced developer practicing Test Driven Development I was a bit sceptical of whether I really needed those rules to be a better programmer. But to my surprise those little rules really reinforced my beliefs about building high-quality software using the principles of object-orientation, SOLID and Clean Code. So what are those rules? I won’t tell you…yet. Just come to my session and I’ll let you in on my secrets…</o>
@@ -70,11 +96,18 @@
     </o>
     <sk>8adeba19-c40b-42da-88a1-2bdbbd5965e4</sk>
   </se>
-  <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 11" sn="Ruben Nauwelaers">
-      <t>Exchange 2013 and Lync 2013: Better Together</t>
-      <o>In this session we will show you in a practical way how you can integrate Lync 2013 and Exchange 2013. You'll learn how Lync 2013 coexistence with Exchange 2013 will give you great features like Unified Messaging, centralized Archiving and Unified Contact Store. This session will be packed with demos. </o>
-      <sk>1e49612d-2531-4e4a-b880-fd9a200a6b83</sk>
+  <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 4" sn="Kurt Roggen">
+      <t>System Center Virtual Machine Manager: Best kept secrets</t>
+      <o>So you think you know System Center Virtual Machine Manager? SCVMM has become the cornerstone for management in your virtualization infrastructure with so many new features introduced with every new release… Attend this session and discover some of the best kept secrets! </o>
+      <sk>34892f16-962e-456b-97e7-3443cf055ddb</sk>
   </se>
+  <se st="2013-06-20T13:15:00" en="2013-06-20T14:15:00" r="Room 11" sn="Jethro Segers">
+      <t>Supporting Architecture for Office 365 on Windows Azure - IaaS</t>
+      <o>It’s all about User Experience, not only in the Office 365-SPO environment itself but also in the authentication &amp; user provisioning system. In this session we’re going to define and setup a supporting environment for SPO Wave 15. What are the possibilities, dos and don’ts? What are the basic building blocks for a hybrid SPO, EXO, LYO environment? We get deep into the ITPro / SysAdmin side of the story. All this all on the Windows Azure IaaS platform. </o>
+      <sk>44c5c14f-a1e4-403a-ad20-cb260fff448d</sk>
+  </se>
+  
+
   <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 8" sn="Xavier Decoster">
       <t>NuGet (Anti-) Patterns – Tales from the trenches</t>
       <o>Many organizations trying to onboard NuGet are expecting to experience a fast transition from dependency hell towards a structured and organized NuGet package repository. Whilst some succeed with ease, others don't know where to start and fail miserably. This session aims to raise awareness around some NuGet (anti-)patterns and practices. Whether you're working on open source projects or in an enterprise environment, or both, this session might help you saving some time and headaches regarding package creation, versioning and publication, as well as repository organization and automated builds. </o>
@@ -85,16 +118,26 @@
       <o>One of the most important aspects of a Windows Store application is its performance: an end-user will simply not keep on using your app if (s)he has to wait too long to complete the task (s)he’s using it for – after all, for most apps, there will be loads of alternatives. In this session, you’ll learn about what you can do to keep your Windows Store application as performant as possible. We’ll dive into some of the available tools for this, we’ll look into the XAML parsing engine, and we’ll learn about resource dictionary strategies to ensure fast loading of your application. But we won’t stop there: you’ll also learn how to perform tasks in parallel, how to offload tasks that don’t belong on your UI thread to another thread, how to incrementally load data instead of loading it all at once, … This is a session that’ll dive into a lot of performance aspects of a Windows Store app – a must if you’re serious about developing the next killer app for Windows 8! </o>
       <sk>9a3ef114-96e8-47da-a335-e24f78bad311</sk>
   </se>
-  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 10" sn="David Smeets">
-      <t>Data-driven Subscription using SSIS and SharePoint</t>
-      <o>SQL Server Reporting Services provides data-driven subscriptions to render reports based on information in a database table. This is a very nice feature but the down side is that you are required to purchase an Enterprise license (or BI license in SQL 2012) of SQL Server in order to use this feature. Customers like this feature but don't want to pay for the Enterprise license so I searched for an alternative with standard licenses. In this session I will show the alternative where the end user can still create his own subscription in SharePoint. Step-by-step I will create an SQL Server Integration Services package that renders reports to a SharePoint library on values stored in the database. </o>
-      <sk>d928457e-8a53-40bc-8a61-d4c8249abe84</sk>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 4" sn="Pieter Gheysens">
+      <t>Testing Apps with Microsoft Test Manager and Team Foundation Service (aka TFS in the cloud)</t>
+      <o>Visual Studio 2012 offers you all the required dev tools to build nice looking Windows 8 Applications, but together with the Application Lifecycle Management tools in Team Foundation Server 2012, you can now also easily setup a distributed team development environment with version control, work item management, build automation and test case management. In this session, you will see some advanced testing features in Microsoft Test Manager 2012 to run Exploratory Tests on Windows 8 applications to detect potential bugs and to capture rich visual debugging information for the development team. Team Foundation Service (aka TFS in the cloud) also allows you to manage your Test Plans from within the browser.</o>
+      <sk>97d1efc8-e040-43fb-8415-0749107711b0</sk>
   </se>
-  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 11" sn="Christopher Keyaert">
-      <t>How to bring Windows Azure portal to your datacenter</t>
-      <o>Windows Azure Services for Windows Server is as part of the Microsoft Cloud OS initiative and allows Hosting Service Providers to easily provision multi-tenant website hosting, Cloud, and Virtual machines services on Windows Server 2012 machines in their datacenter. In this session we will see how to setup and how to use Windows Azure Services for Windows Server.</o>
-      <sk>9b753676-e010-4506-9f2d-9d5bfc4d5d50</sk>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 10" sn="Francis Incourt">
+      <t>XLCubed : The ultimate end-user tool for MSBI. Dashboard, analysis, reporting on SSAS and xVelocity </t>
+      <o>Discover XLCubed, the ultimate front-end solution for your MS Business Intelligence stack. Reports, Analytics, Dashboards and Advanced visualization comes out of the box with your favourite productivity tool : Excel. You will get the maximum out of Analysis services, xVelocity from SQL Server 2000 to 2012 and it works on Office 2003 to 2013. Design in Excel and get on one click the result on the web, in your intranet (Sharepoint or not) and on mobile devices iPAD and Android. </o>
+      <sk>3a794bb1-b623-4596-9cf7-4cf0172ebbf3</sk>
   </se>
+  <se st="2013-06-20T14:30:00" en="2013-06-20T15:30:00" r="Room 11" sn="Pieter Vanhove">
+      <t>How to setup SQL Server Reporting Services high availability with SQL Server 2012 Standard Edition</t>
+      <o>Your business wants a high available reporting environment. OK, fine, you just implement the scale-out deployment of SQL Server Reporting Services. Oh? Your business also wants to save money and there is no budget for an Enterprise Edition... But they still want a high available reporting environment. Sure, no problem, there is a way to implement this with SQL Server Standard Edition. No, it's not implemented with the scale-out deployment and no, it's not officially supported by Microsoft. But hey, it works and it's cheap! Do you want to see how you can implement it? Well, just join my session. </o>
+      <sk>d2011899-ee74-42de-a6e7-de77c4b0e92b</sk>
+  </se>
+
+  <se st="2013-06-20T15:30:00" en="2013-06-20T16:00:00" r="" sn="">
+      <t>Partner expo</t>
+  </se>
+  
   <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 8" sn="Kris Van Der Mast">
       <t>Going for a SPA on a Cloudy day</t>
       <o>This session will give you an overview of how to build a Single Page Application, SPA, based on HTML5. Besides that the backend will be set up in an easy fashion on Windows Azure.</o>
@@ -105,17 +148,23 @@
       <o>Combine the power of Windows 8 with the flexibility and interoperability of SharePoint 2013 search. This session will walk through building Windows 8 applications using SharePoint 2013's REST-based search API to build rich, compelling user experiences. We will leverage the new people and social search capabilities in SharePoint 2013 to build both a Windows 8 client and Windows Phone 8 client. </o>
       <sk>ce91e164-d1a5-42b3-b740-881913a15e21</sk>
   </se>
-  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 10" sn="Pieter Vanhove">
-      <t>How to setup SQL Server Reporting Services high availability with SQL Server 2012 Standard Edition</t>
-      <o>Your business wants a high available reporting environment. OK, fine, you just implement the scale-out deployment of SQL Server Reporting Services. Oh? Your business also wants to save money and there is no budget for an Enterprise Edition... But they still want a high available reporting environment. Sure, no problem, there is a way to implement this with SQL Server Standard Edition. No, it's not implemented with the scale-out deployment and no, it's not officially supported by Microsoft. But hey, it works and it's cheap! Do you want to see how you can implement it? Well, just join my session. </o>
-      <sk>d2011899-ee74-42de-a6e7-de77c4b0e92b</sk>
-  </se>
-  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 11" sn="Peter De Tender">
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 4" sn="Peter De Tender">
       <t>Using Windows RT in the Enterprise</t>
       <o>In this session, we will not only talk about how to use and manage Windows RT devices (like Microsoft's Surface...), but also show you by bringing live demos. Starting with a comparison between Windows 8 RT and plain Windows 8, we go over some specific functionalities and feature-set of Windows RT. 
 	  Next to that, I'll walk you through some business scenarios in which the Windows RT is an advised device to be used. Lastly, I'll take away one of the bigger concerns in Enterprises, namely how to efficiently manage the device itself.</o>
       <sk>d83de4f5-1f4d-45d0-b094-6dd7318e1fee</sk>
   </se>
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 10" sn="Ruben Nauwelaers">
+      <t>Exchange 2013 and Lync 2013: Better Together</t>
+      <o>In this session we will show you in a practical way how you can integrate Lync 2013 and Exchange 2013. You'll learn how Lync 2013 coexistence with Exchange 2013 will give you great features like Unified Messaging, centralized Archiving and Unified Contact Store. This session will be packed with demos. </o>
+      <sk>1e49612d-2531-4e4a-b880-fd9a200a6b83</sk>
+  </se>
+  <se st="2013-06-20T16:00:00" en="2013-06-20T17:00:00" r="Room 11" sn="Christopher Keyaert">
+      <t>How to bring Windows Azure portal to your datacenter</t>
+      <o>Windows Azure Services for Windows Server is as part of the Microsoft Cloud OS initiative and allows Hosting Service Providers to easily provision multi-tenant website hosting, Cloud, and Virtual machines services on Windows Server 2012 machines in their datacenter. In this session we will see how to setup and how to use Windows Azure Services for Windows Server.</o>
+      <sk>9b753676-e010-4506-9f2d-9d5bfc4d5d50</sk>
+  </se>
+
   <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 8" sn="Panagiotis Kefalidis">
       <t>In depth lap around on Windows Azure - Applied architectures</t>
       <o>Exploring Windows Azure services from a more advanced side and looking into applied architectures solving different problems. Extract the essence and getting the full potential out of the platform is key to a valid and cost effective architecture. Let's explore the options and the services. </o>
@@ -126,7 +175,12 @@
       <o>Threading has been a challenging and non portable job for many years, and it is one of our basic tools for the future. Though several libraries came to aid (POCO / boost / …), now it’s finally part of the language, C++11 is bringing us threading support. In this crash course we will dive into basic uses of std::thread, std::mutex, std::condition_variable, std::atomic, … Life is easier and more portable now, but did we get all we wanted ? And as always, C++ is powerful, providing constructs mere mortals should better not touch, unless you are that 1% of the user base, but most of us are not. We will see simple code examples explaining the std::thread basics. So lock your mutex, wait for your condition variable and atomically spin up that thread, C++11 threading is here for you. Thou shall async till eternity, or until the future has delivered its promise. </o>
       <sk>c00a72ca-546e-4c30-a99d-889105b5424e</sk>
   </se>
-  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 10" sn="Serge Luca, Isabelle Van Campenhoudt">
+  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 10" sn="Mike Resseler">
+      <t>Business Continuity with System Center</t>
+      <o>Business Continuity used to be very expensive or impossible for many organizations. It included complex technologies and hardware solutions. With System Center and Hyper-V, you can now add several new layers to your defense on an easy, affordable way. Join Mike in this session to see Hyper-V replica, Data Protection Manager and Backup to the cloud as great tools for your Business Continuity plan. </o>
+      <sk>362727be-b0b9-433b-8c6e-1f25cbf7c889</sk>
+  </se>
+  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 11" sn="Serge Luca, Isabelle Van Campenhoudt">
       <t>Tuning SQL Server 2012 for SharePoint 2013”: what every SharePoint consultant should know</t>
       <o>SQL Server is really the brain of SharePoint; the default settings of SQL server are not optimized for SharePoint; in this session, Serge Luca (SharePoint MVP) and Isabelle Van Campenhoudt (SQL Server MVP) will give you an overview of what any SharePoint consultant need to know regarding configuring monitoring and setting up SQL Server 2012 for SharePoint 2013. 
 	  -Keys SQL Server and SharePoint integration concepts 
@@ -136,11 +190,7 @@
       <sk>dc9f68a0-5f61-4af7-b3fa-12cae61a903c</sk>
       <sk>d1883b4e-3e42-4196-ae60-dcdabaa0bb3c</sk>
   </se>
-  <se st="2013-06-20T17:15:00" en="2013-06-20T18:00:00" r="Room 11" sn="Mike Resseler">
-      <t>Business Continuity with System Center</t>
-      <o>Business Continuity used to be very expensive or impossible for many organizations. It included complex technologies and hardware solutions. With System Center and Hyper-V, you can now add several new layers to your defense on an easy, affordable way. Join Mike in this session to see Hyper-V replica, Data Protection Manager and Backup to the cloud as great tools for your Business Continuity plan. </o>
-      <sk>362727be-b0b9-433b-8c6e-1f25cbf7c889</sk>
-  </se>
+
   <se st="2013-06-20T18:15:00" en="2013-06-20T18:30:00" r="Room 8" sn="Gill Cleeren, Davy Knuysen, Mike Martin">
       <t>Closing with prize draw &amp; give away</t>
     <sk>1098bc15-6551-46f8-9bcf-18f3c987669c</sk>
@@ -176,6 +226,12 @@
   <sp k="dc9f68a0-5f61-4af7-b3fa-12cae61a903c" n="Serge Luca"/>
   <sp k="d1883b4e-3e42-4196-ae60-dcdabaa0bb3c" n="Isabelle Van Campenhoudt"/>
   <sp k="362727be-b0b9-433b-8c6e-1f25cbf7c889" n="Mike Resseler"/>
+  <sp k="6b4bc423-da40-4433-83c3-ee277301fdc1" n="Paul Loonen"/>
+  <sp k="b3779276-330f-4635-8504-e427ee9c39d9" n="Jan Van Der Haegen"/>
+  <sp k="89ecd489-87a3-4796-a5d1-b88d2f1bc49c" n="Michelangelo van Dam"/>
+  <sp k="44c5c14f-a1e4-403a-ad20-cb260fff448d" n="Jethro Segers"/>
+  <sp k="97d1efc8-e040-43fb-8415-0749107711b0" n="Pieter Gheysens"/>
+  <sp k="3a794bb1-b623-4596-9cf7-4cf0172ebbf3" n="Francis Incourt"/>
 
  <ug n="WinTalks" u="http://www.wintalks.be/" i="http://www.communityday.be/Portals/0/winsec.png">
       <o>WinTalks User Group is focused on any and all Microsoft Windows and related technologies. During our sessions we will discuss new and old Microsoft Windows technologies or 3rd party products that enhance the overall Microsoft Windows capabilities.
